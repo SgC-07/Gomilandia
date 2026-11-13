@@ -142,7 +142,7 @@ footer .mini{width:72px;display:inline-block;vertical-align:middle;animation:non
       <p class="lead">Gomilandia Milk tiene casa nueva a pocos pasos de la de siempre. Los mismos lácteos de siempre y la misma vaca, ahora con más espacio.</p>
       <div class="botones">
         <a class="btn btn-pri" href="#llegar">Ver cómo llegar</a>
-        <a class="btn btn-sec" href="#bono">Quiero mi 30%</a>
+        <a class="btn btn-sec" href="#bono">Quiero mi 10%</a>
       </div>
     </div>
     <div class="vaca-caja">
@@ -187,7 +187,7 @@ footer .mini{width:72px;display:inline-block;vertical-align:middle;animation:non
 <section id="galeria">
   <div class="wrap">
     <h2>Conoce nuestra casa nueva</h2>
-    <p>Recorre el local, la Zona Verde y GomiAgua, nuestra extensión. (aproximación visual generada con ia) </p>
+    <p>Fotos de lo nuestro ❤️ </p>
     <div class="carrusel">
       <div class="pista" id="pista" tabindex="0" aria-label="Fotos del nuevo local"></div>
       <div class="flechas">
@@ -204,10 +204,10 @@ footer .mini{width:72px;display:inline-block;vertical-align:middle;animation:non
   <div class="burbujas" aria-hidden="true"></div>
   <div class="wrap">
     <div class="bono-caja">
-      <div class="sello"><div><strong>30%</strong>de descuento</div></div>
+      <div class="sello"><div><strong>10%</strong>de descuento</div></div>
       <div>
         <h2>Regístrate y estrena tu descuento</h2>
-        <p>Escríbenos por WhatsApp y llévate 30% de descuento en el producto más caro de tu compra.</p>
+        <p>Escríbenos por WhatsApp y llévate 10% de descuento en tu proxima compra.</p>
         <form id="registro">
           <label for="nombre">Tu nombre</label>
           <input id="nombre" name="nombre" type="text" placeholder="Escribe tu nombre" autocomplete="given-name" required>
@@ -308,7 +308,7 @@ document.querySelectorAll('.burbujas').forEach(c => {
 $('#registro').addEventListener('submit', e => {
   e.preventDefault();
   const n = $('#nombre').value.trim();
-  const msg = `¡Hola Gomilandia Milk! Soy ${n} y quiero registrarme para recibir mi 30% de descuento en el producto más caro de mi compra.`;
+  const msg = `¡Hola Gomilandia Milk! Soy ${n} y quiero registrarme para recibir mi 10% de descuento en mis productos lacteos.`;
   window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
 });
 </script>
